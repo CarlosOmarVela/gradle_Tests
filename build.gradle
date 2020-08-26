@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'io.rest-assured:rest-assured:4.1.2'//Usa el framework
+    testImplementation 'io.rest-assured:json-path:4.1.2'//Usar el json
+    testImplementation 'io.rest-assured:xml-path:4.1.2'//Usar el xml
+    testImplementation 'io.rest-assured:json-schema-validator:4.1.2'//validador de json
+    testImplementation 'io.rest-assured:spring-mock-mvc:4.1.2'//Mockear
+    testImplementation 'io.rest-assured:spring-web-test-client:4.1.2'//Cliente web
+    testImplementation 'io.rest-assured:scala-support:4.1.2'//Soporte de escala
+    testImplementation 'io.rest-assured:kotlin-extensions:4.1.2'//Soporte de kotlin
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
