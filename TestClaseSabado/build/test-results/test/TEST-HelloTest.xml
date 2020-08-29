@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HelloTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-29T17:32:47" hostname="iMac-de-Carlos.local" time="0.004">
+  <properties/>
+  <testcase name="testGetHello" classname="HelloTest" time="0.004"/>
+  <system-out><![CDATA[Antes del test
+Durante el test
+Despues del test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
